@@ -3,19 +3,38 @@ body {
     background-color: #0d1117;
 }
 
+
 header i {
     font-size: 32px;
 }
 
-.header-list h5 {
-    margin: 0 20px 0 20px;
+.header-list h5,
+header span input {
+    margin: 10px 20px 0 20px;
 }
 
 header {
     color: #ffffff;
 }
 
-header div {
+header span input {
+    background-color: rgba(40, 48, 64, 255);
+    color: lightgray;
+    border: 0.5px solid lightgray;
+    padding: 5px;
+}
+
+header span {
+    float: right;
+}
+
+input {
+    border-radius: 5px;
+}
+
+header div,
+header span,
+header i {
     display: inline-flex;
 }
 
